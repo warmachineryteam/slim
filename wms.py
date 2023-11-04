@@ -17,10 +17,10 @@ def file_check():
 
 def about():
 	os.system("clear")
-	print('  \033[1;31m  / _ \ ')
-	print('  \_\(_)/_/')
-	print('   _//"\\\_')
-	print('    /   \  \033[1;37mSlimass..\n')
+	print('  \033[1;31m _    _  __  __ ')
+	print('  ( \/\/ )(  \/  )')
+	print('   )    (  )    (')
+	print('  (__/\__)(_/\/\_)033[1;37mSlimass..\n')
 
 
 if __name__ == "__main__":
@@ -29,7 +29,7 @@ if __name__ == "__main__":
 		param_check()
 		file_check()
 		while True:
-			target = raw_input("\033[1;37m[ \033[1;31mGRT \033[1;37m]> ")
+			target = raw_input("\033[1;37m[ \033[1;31mURL \033[1;37m] ")
 			a = slims(target, sys.argv[1])
 	except:
 		pass
